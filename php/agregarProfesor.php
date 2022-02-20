@@ -9,7 +9,7 @@ $apellido=$_POST['apellido'];
 $puntos=$_POST['puntos'];
 
 
-$sql="INSERT INTO registro (id_profesor,id_concurso ,nombre_profesor ,nombre_concurso, puntos) VALUES('$id_profesor','$id_concurso','$nombre_profesor','$nombre_concurso','$puntos')";
+$sql="INSERT INTO registros (id_profesor,id_concurso ,nombre_profesor ,nombre_concurso, puntos) VALUES('$id_profesor','$id_concurso','$nombre_profesor','$nombre_concurso','$puntos')";
 $query= mysqli_query($conexion, $sql);
 
 if($query){

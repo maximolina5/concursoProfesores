@@ -38,16 +38,16 @@
     <section id="banner">
         <img src="../assets/images/computer-g2bcd86e83_1280.jpg">
       <div class="contenedor_home">
-          <h2>Ya esta el ingreso para computación y redes</h2>
-          <p>¿Quieres saber mas?</p>
+          <h2>Ya esta disponible el ingreso para computación y redes</h2>
+          <p>¿Quieres saber más?</p>
           <a href="https://www.iesmb.edu.ar/bel/ingreso-computacion-y-redes-2022/">Ver mas...</a>
       </div>
     </section>
     
     <section id="bienvenidos">
-        <h2>Bienvenidos al sistema de gestion de concursos</h2>
-        <p>Aca podras crear concursos y agregar profesores, al final de cada concurso se elegira al mejor profesor para
-        cada puesto y se informara a travez de la plataforma la cual podran podran ingresar y ver los profesores.</p>
+        <h2>Bienvenidos al sistema de gestión de concursos</h2>
+        <p>Acá podrás crear concursos y agregar profesores, al final de cada concurso se elegirá al mejor profesor para
+        cada puesto y se informara a través de la plataforma a la cual podrán ingresar y ver los profesores.</p>
     </section> 
     
     <section id="blog">
@@ -79,14 +79,14 @@
         <div class="contenedor_home">
             <div class="funciones">  
                 <a href="../php/profesor.php"><img src="../assets/images/contratacion.png" alt=""></a>
-                <h4>Gestion de profesores</h4>
+                <h4>Gestión de profesores</h4>
             </div>
             <div class="funciones"> 
                 <a href="../php/concurso.php"><img src="../assets/images/reporte.png" alt=""></a>
-                <h4>Gestion de concursos</h4>
+                <h4>Gestión de concursos</h4>
             </div>
             <div class="funciones">
-                <img src="../assets/images/archivo.png" alt="">
+                <a href="../php/listaRegistro.php"><img src="../assets/images/archivo.png" alt="">
                 <h4>Consultar resultados</h4>
             </div>
         </div>

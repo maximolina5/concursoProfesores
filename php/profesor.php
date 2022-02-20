@@ -24,6 +24,7 @@ $query = mysqli_query($conexion, $sql);
             }
         }
     </script>
+    </head>
     <body>
          <header>
             <div class="contenedor_home">
@@ -34,7 +35,7 @@ $query = mysqli_query($conexion, $sql);
         </header>
         <section id="banner">
                 <p>
-                    Gestion de profesores
+                    Gestión de profesores
                 </p>
             </section>
         <section class="contenedor-abm">
@@ -44,9 +45,9 @@ $query = mysqli_query($conexion, $sql);
                     <h1>Ingrese datos</h1>
                     <form action="insertar.php" method="POST">
 <!--                        <input type="text" class="form-control mb-3" name="id_profesor" placeholder="id_profesor">-->
-                        <input type="text" class="form-control mb-3" name="nombre" placeholder="nombre">
-                        <input type="text" class="form-control mb-3" name="apellido" placeholder="apellido">
-                        <input type="number" class="form-control mb-3" name="dni" placeholder="dni">
+                        <input type="text" class="form-control mb-3" name="nombre" placeholder="Nombre">
+                        <input type="text" class="form-control mb-3" name="apellido" placeholder="Apellido">
+                        <input type="number" class="form-control mb-3" name="dni" placeholder="Dni">
 <!--                        <input type="text" class="form-control mb-3" name="puntos" placeholder="puntos">-->
                         <input type="submit" class="btn btn-primary">
                     </form>
@@ -82,8 +83,6 @@ $query = mysqli_query($conexion, $sql);
                                 <?php
                             }
                             ?>
-                        <th></th>
-                        <th></th>
                         </tbody>
                 </table></div>
             </div>

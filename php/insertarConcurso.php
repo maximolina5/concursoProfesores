@@ -3,7 +3,7 @@ include("conexion.php");
 $conexion= conectar();
 
 $id_concurso=$_POST['id_concurso'];
-$nombre_concurso=$_POST['nombre'];
+$nombre_concurso=$_POST['nombre_concurso'];
 
 $sql="INSERT INTO concursos VALUES('$id_concurso','$nombre_concurso')";
 $query= mysqli_query($conexion, $sql);
