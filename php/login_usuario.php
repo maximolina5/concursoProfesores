@@ -3,6 +3,7 @@
 session_start();
 
 include './conexion.php';
+$conexion = conectar();
 
 $correo_login = $_POST['correo_login'];
 $contrasenia_login = $_POST['contrasenia_login'];
@@ -11,7 +12,7 @@ $validar_login = mysqli_query($conexion, "SELECT * FROM usuario WHERE correo='$c
 
 if(mysqli_num_rows($validar_login) > 0){
     $_SESSION['usuario'] = $correo_login;
-    header("location: ../bienvenido.php");
+    header("location: ../vistas/bienvenido.php");
     exit();
 }else{
     echo '

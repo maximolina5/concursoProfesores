@@ -1,12 +1,13 @@
 <?php
 
     session_start();
-    
-    if(isset($_SESSION['usuario'])){
-        header("location: bienvenido.php");
-    }
-
-?>
+//        session_destroy();
+//    die();
+//    if(isset($_SESSION['usuario'])){
+//        header("location: bienvenido.php");
+//    }
+//
+//?>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -37,7 +38,7 @@
                     <div class="contenedor__login-register"> 
                         <form action="php/login_usuario.php" method="POST" class="formulario__login">
                             <h2>Iniciar Sesión</h2>
-                            <input type="text" placeholder="Correo Electronico" name="correo_login">
+                            <input type="email" placeholder="Correo Electronico" name="correo_login">
                             <p class="login__correo-error">El correo ingresado no esta registrado por favor revise los datos ingresados</p>
                             <input type="password" placeholder="Contraseña" name="contrasenia_login">
                             <p class="login__contrasenia-error">La contraseña ingresada no es correcta, por favor intente de nuevo</p>
@@ -46,7 +47,7 @@
                         <form action="php/registro_usuario.php" method="POST" class="formulario__register">
                             <h2>Regístrarse</h2>
                             <input type="text" placeholder="Nombre Completo" name="nombre_completo">
-                            <input type="text" placeholder="Correo Electronico" name="correo">
+                            <input type="email" placeholder="Correo Electronico" name="correo">
                             <p class="register__correo-error">El correo ingresado ya se encuentra registrado</p>
                             <input type="text" placeholder="Usuario" name="usuario"> 
                             <p class="register__usuario-error">El nombre de usuario debe contener de 8 a 14 caracteres, solo letras, numeros y guion bajo</p>

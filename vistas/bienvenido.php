@@ -1,5 +1,5 @@
 <?php
-//
+
 //session_start();
 //if(!isset($_SESSION['usuario'])){
 //    echo '
@@ -36,11 +36,11 @@
     
 <main>
     <section id="banner">
-        <img src="../assets/images/Background3_1.jpg">
+        <img src="../assets/images/computer-g2bcd86e83_1280.jpg">
       <div class="contenedor_home">
-          <h2>Ya estan los resultados de los concursos</h2>
-          <p>¿Quieres saber cuales son?</p>
-          <a href="#">Ver mas...</a>
+          <h2>Ya esta el ingreso para computación y redes</h2>
+          <p>¿Quieres saber mas?</p>
+          <a href="https://www.iesmb.edu.ar/bel/ingreso-computacion-y-redes-2022/">Ver mas...</a>
       </div>
     </section>
     
@@ -78,15 +78,15 @@
         <h3>Crea profesores con sus respectivos puntos de docencia, para posteriormente agregarlos en futuros concursos</h3>
         <div class="contenedor_home">
             <div class="funciones">  
-                <img src="../assets/images/asistencia-social.gif" alt="">
-                <h4>Crear profesores</h4>
+                <a href="../php/profesor.php"><img src="../assets/images/contratacion.png" alt=""></a>
+                <h4>Gestion de profesores</h4>
+            </div>
+            <div class="funciones"> 
+                <a href="../php/concurso.php"><img src="../assets/images/reporte.png" alt=""></a>
+                <h4>Gestion de concursos</h4>
             </div>
             <div class="funciones">
-                <img src="../assets/images/documento.gif" alt="">
-                <h4>Crear concursos</h4>
-            </div>
-            <div class="funciones">
-                <img src="../assets/images/lista-de-verificacion.gif" alt="">
+                <img src="../assets/images/archivo.png" alt="">
                 <h4>Consultar resultados</h4>
             </div>
         </div>

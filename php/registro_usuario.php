@@ -1,6 +1,7 @@
 <?php
 
 include './conexion.php';
+$conexion = conectar();
 
 $nombre_completo = $_POST['nombre_completo'];
 $correo = $_POST['correo'];
